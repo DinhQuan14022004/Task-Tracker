@@ -1,0 +1,40 @@
+.container{
+    width: 30%;
+    justify-self: center;
+}
+.container li{
+    list-style: none;
+    margin-top: 5px;
+    position: relative;
+
+}
+.container li button{
+ position: absolute;
+ right: 0;
+}
+.done{
+   text-decoration: line-through;
+}
+
+#input{
+    border: solid;
+    width: 100%;
+    justify-self: center;
+    display: flex;
+    position: relative;
+    height: 30px;
+}
+#input input{
+    border: none;
+    width: 100%;
+}
+#input button{
+    position: absolute;
+    right: 0;
+    height: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    top: 10%;
+    cursor: pointer;
+}
